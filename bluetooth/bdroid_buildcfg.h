@@ -16,6 +16,5 @@
 
 #ifndef _BDROID_BUILDCFG_H
 #define _BDROID_BUILDCFG_H
-#define BTM_DEF_LOCAL_NAME   "Sony Ericsson Xperia X8"
+#define BTM_DEF_LOCAL_NAME   "SE Xperia X10 Mini"
 #endif
-

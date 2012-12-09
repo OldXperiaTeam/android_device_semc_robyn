@@ -34,6 +34,8 @@
 
     <!-- Default color for notification LED is white. -->
     <color name="config_defaultNotificationColor">#ffffffff</color>
+	
+	<bool name="config_multiColorBatteryLed">true</bool>
 
     <!-- Default LED on time for notification LED in milliseconds. -->
     <integer name="config_defaultNotificationLedOn">1000</integer>
@@ -58,7 +60,7 @@
     <bool name="config_disableMenuKeyInLockScreen">true</bool>
 
     <!-- Disable lockscreen rotation by default -->
-    <bool name="config_enableLockScreenRotation">false</bool>
+    <bool name="config_enableLockScreenRotation">true</bool>
 
     <!-- Array of light sensor LUX values to define our levels for auto backlight brightness support.
          The N entries of this array define N + 1 zones as follows:
@@ -245,5 +247,8 @@
     <!-- Boolean indicating if restoring network selection should be skipped -->
     <!-- The restoring is handled by modem if it is true-->
     <bool translatable="false" name="skip_restoring_network_selection">true</bool>
+	
+	<!-- Maximum number of supported users -->
+    <integer name="config_multiuserMaximumUsers">4</integer>
 
 </resources>
